@@ -1,0 +1,41 @@
+form{
+    width: 90%;
+}
+.head{
+    background-color:rgb(200,200,200);
+}
+.tail{
+    background-color:rgb(200,200,200);
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h6{
+    margin: 0px;
+}
+.red-bacground{
+    background-color: rgba(255,0,0,0.3);
+}
+.tail{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.save{
+    background-color: rgb(30, 144, 255);
+}
+.cancel{
+    background-color: rgb(100,100,100);
+}
